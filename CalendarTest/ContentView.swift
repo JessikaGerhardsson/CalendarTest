@@ -24,6 +24,7 @@ struct ContentView: View {
             Text("Tor").dayOfWeek()
             Text("Fre").dayOfWeek()
             Text("Lör").dayOfWeek()
+            Text("Sön").dayOfWeek()
             
         }
     }
@@ -42,8 +43,7 @@ struct ContentView: View {
             ForEach(0..<6) {
                 row in
                 HStack(spacing: 1) {
-                    ForEach(1..<8) {
-                        column in
+                    ForEach(1..<8) { column in
                         let count = column + (row * 7)
                         CalendarCell(count: count, startingSpaces: startingSpaces, daysInMonth: daysInMonth, daysInPrevMonth: daysInPrevMonth)
                             .environmentObject(dateHolder)

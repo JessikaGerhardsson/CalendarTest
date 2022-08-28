@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FAA298AD28993FD700D2C04E /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA298AC28993FD700D2C04E /* WeekView.swift */; };
 		FAAD45DE28897BBC00989CC1 /* CalendarTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD45DD28897BBC00989CC1 /* CalendarTestApp.swift */; };
 		FAAD45E028897BBC00989CC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD45DF28897BBC00989CC1 /* ContentView.swift */; };
 		FAAD45E228897BBE00989CC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAD45E128897BBE00989CC1 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FAA298AC28993FD700D2C04E /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		FAAD45DA28897BBC00989CC1 /* CalendarTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAD45DD28897BBC00989CC1 /* CalendarTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTestApp.swift; sourceTree = "<group>"; };
 		FAAD45DF28897BBC00989CC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				FAAD45ED28897C3C00989CC1 /* MonthStruct.swift */,
 				FAAD45EF28897C5600989CC1 /* DateScrollerView.swift */,
 				FAAD45F128897C7000989CC1 /* CalendarHelper.swift */,
+				FAA298AC28993FD700D2C04E /* WeekView.swift */,
 				FAAD45F328897C9300989CC1 /* DateHolder.swift */,
 				FAAD45E128897BBE00989CC1 /* Assets.xcassets */,
 				FAAD45E328897BBE00989CC1 /* Preview Content */,
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA298AD28993FD700D2C04E /* WeekView.swift in Sources */,
 				FAAD45F428897C9300989CC1 /* DateHolder.swift in Sources */,
 				FAAD45E028897BBC00989CC1 /* ContentView.swift in Sources */,
 				FAAD45F228897C7000989CC1 /* CalendarHelper.swift in Sources */,

@@ -12,8 +12,9 @@ struct CalendarTestApp: App {
     var body: some Scene {
         WindowGroup {
             let dateHolder = DateHolder()
-            ContentView()
-            .environmentObject(dateHolder)
+//            ContentView()
+//            .environmentObject(dateHolder)
+            WeekView().environmentObject(dateHolder)
             
         }
     }
